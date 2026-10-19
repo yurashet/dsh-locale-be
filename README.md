@@ -1,5 +1,7 @@
 # dsh-locale-be
 
+[![validate](https://github.com/yurashet/dsh-locale-be/actions/workflows/validate.yml/badge.svg)](https://github.com/yurashet/dsh-locale-be/actions/workflows/validate.yml)
+
 Belarusian (`be`) language pack for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI.
 
 [Чытаць па-беларуску](README.be.md)
