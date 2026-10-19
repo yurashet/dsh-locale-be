@@ -1,0 +1,13 @@
+# Belarusian language pack for DeepSeek Harness.
+#
+# The bundle inserts the client plugin and selects Belarusian as the default
+# locale. A language chosen in Settings → General is stored in the profile's
+# own cordis.patch.yml, which is applied after this layer, so the user choice
+# still wins on the next start.
+- insert:
+    - id: be-locale
+      name: dsh-client-locale-be
+- id: locale
+  name: "@deepseek-ai/dsh-client-locale"
+  config:
+    preference: be

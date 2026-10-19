@@ -1,0 +1,62 @@
+{
+  "name": "dsh-client-locale-be",
+  "version": "0.1.0",
+  "description": "Belarusian (be) language pack for the DeepSeek Harness web UI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./translations": "./translations.be.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "translations.be.json",
+    "README.md",
+    "README.be.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.1-rc.2"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:check": "node scripts/build.mjs --check",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run validate && npm run build:check"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "belarusian",
+    "belarus",
+    "i18n",
+    "locale",
+    "localization",
+    "translation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurashet/dsh-locale-be.git"
+  },
+  "homepage": "https://github.com/yurashet/dsh-locale-be#readme",
+  "bugs": {
+    "url": "https://github.com/yurashet/dsh-locale-be/issues"
+  },
+  "author": "Yuras Hetsevich",
+  "license": "MIT"
+}
