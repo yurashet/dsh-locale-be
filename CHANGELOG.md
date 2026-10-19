@@ -6,3 +6,4 @@
 - 60 namespaces and 2713 UI strings.
 - Bundle installs through `dsh plugin --profile web add`.
 - Generated `lib/client.js` and validation scripts.
+- Screenshot, plugin icon, and format-1 DSH plugin market index.

@@ -16,6 +16,8 @@
     "lib/client.js",
     "cordis.patch.yml",
     "translations.be.json",
+    "assets/settings-be.png",
+    "market/icons/dsh-locale-be.svg",
     "README.md",
     "README.be.md",
     "LICENSE"
@@ -36,7 +38,8 @@
     "build": "node scripts/build.mjs",
     "build:check": "node scripts/build.mjs --check",
     "validate": "node scripts/validate.mjs",
-    "test": "npm run validate && npm run build:check"
+    "validate:market": "node scripts/validate-market.mjs",
+    "test": "npm run validate && npm run validate:market && npm run build:check"
   },
   "keywords": [
     "dsh-plugin",

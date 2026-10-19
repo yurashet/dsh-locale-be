@@ -2,6 +2,8 @@
 
 [![validate](https://github.com/yurashet/dsh-locale-be/actions/workflows/validate.yml/badge.svg)](https://github.com/yurashet/dsh-locale-be/actions/workflows/validate.yml)
 
+<p align="center"><img src="market/icons/dsh-locale-be.svg" width="96" height="96" alt="Belarusian language pack"></p>
+
 Belarusian (`be`) language pack for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) web UI.
 
 [Чытаць па-беларуску](README.be.md)
@@ -9,6 +11,12 @@ Belarusian (`be`) language pack for the [DeepSeek Harness](https://github.com/de
 - **60 namespaces, 2713 UI strings** — chat, settings, models, plugins, skills, MCP, sessions, diagnostics, shortcuts.
 - Registers the language through the public `ctx.locale` API. No host code, network calls, credentials, or telemetry.
 - Tested with DSH `0.2.1-rc.2` on Windows 11 and Node.js 22.
+
+## Screenshot
+
+![DeepSeek Harness settings in Belarusian](assets/settings-be.png)
+
+The language selector shows **Беларуская**; the rest of the settings UI is translated too.
 
 ## Install
 
@@ -20,6 +28,16 @@ dsh web
 ```
 
 The bundle inserts the language pack and selects Belarusian by default. If the UI is still in another language, open **Settings → General → Language** and choose **Беларуская**.
+
+## DSH plugin market
+
+The repository also publishes a format-1 market index:
+
+```text
+https://yurashet.github.io/dsh-locale-be/index.json
+```
+
+In DSH, open **Plugins → More → Experimental plugins → Custom plugin markets**, add that URL as an index source, then install the **Belarusian** card from **Discover**. The market lists a commit-pinned Git source.
 
 For a reproducible install, pin a commit:
 

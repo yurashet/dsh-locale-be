@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Belarusian language pack",
+    "be": "Беларуская лакалізацыя"
+  },
+  "description": {
+    "en": "Community plugin market for the Belarusian language pack for DeepSeek Harness.",
+    "be": "Маркет супольнасных плагінаў для беларускай лакалізацыі DeepSeek Harness."
+  },
+  "plugins": [
+    {
+      "name": "dsh-client-locale-be",
+      "title": {
+        "en": "Belarusian",
+        "be": "Беларуская"
+      },
+      "description": {
+        "en": "Full Belarusian localization of the DeepSeek Harness web UI: 60 namespaces and 2713 strings, including chat, settings, models, skills, MCP, sessions, diagnostics, and shortcuts.",
+        "be": "Поўная беларуская лакалізацыя вэб-інтэрфейсу DeepSeek Harness: 60 прастораў імён і 2713 радкоў — чат, налады, мадэлі, skills, MCP, сесіі, дыягностыка і гарычыя клавішы."
+      },
+      "icon": "icons/dsh-locale-be.svg",
+      "author": "Yuras Hetsevich",
+      "homepage": "https://github.com/yurashet/dsh-locale-be#readme",
+      "repository": {
+        "url": "https://github.com/yurashet/dsh-locale-be"
+      },
+      "metadata": {
+        "keywords": [
+          "belarusian",
+          "belarus",
+          "i18n",
+          "locale",
+          "translation"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792405864,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yurashet/dsh-locale-be",
+            "commit": "412b9ced141aaaec66aa3c5454de13c2d5442801"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

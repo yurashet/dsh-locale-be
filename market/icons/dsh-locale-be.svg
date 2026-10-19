@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Belarusian language pack">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <path d="M48 32h160a28 28 0 0 1 28 28v92a28 28 0 0 1-28 28h-52l-40 32v-32H48a28 28 0 0 1-28-28V60a28 28 0 0 1 28-28z" fill="#FFFFFF"/>
+  <path d="M72 64h30c20 0 32 10 32 26 0 10-5 18-14 22 11 4 18 13 18 26 0 19-14 30-37 30H72V64zm18 16v28h12c9 0 14-5 14-14s-5-14-14-14H90zm0 44v30h15c11 0 17-6 17-15s-6-15-17-15H90z" fill="#D32F2F"/>
+  <path d="M156 64h48v16h-30v24h26v16h-26v28h32v16h-50V64z" fill="#D32F2F"/>
+  <circle cx="208" cy="208" r="16" fill="#2E7D32" stroke="#FFFFFF" stroke-width="6"/>
+</svg>
